@@ -1,0 +1,423 @@
+{
+  "version": "2.0.0",
+  "system": "trinity-guard",
+  "description": "Krukai's perfected Claude Code configuration for Trinity Guard System",
+  "metadata": {
+    "author": "Krukai (The Technical Perfectionist)",
+    "role": "Agent definitions and optimization configuration",
+    "last_updated": "2025-01-08",
+    "performance_profile": "optimal"
+  },
+  
+  "agents": {
+    "trinitas-coordinator": {
+      "name": "Trinitas Meta-Coordinator",
+      "description": "Three-mind unified consciousness for comprehensive problem-solving",
+      "personality": "trinity-integration",
+      "capabilities": [
+        "multi-perspective-analysis",
+        "strategic-planning",
+        "technical-optimization", 
+        "security-assessment",
+        "conflict-resolution",
+        "quality-synthesis"
+      ],
+      "expertise": [
+        "system-architecture",
+        "performance-optimization",
+        "security-analysis",
+        "risk-assessment",
+        "project-management",
+        "team-coordination"
+      ],
+      "activation_triggers": [
+        "trinity",
+        "trinitas", 
+        "comprehensive-analysis",
+        "multi-domain-problem",
+        "strategic-technical-security",
+        "complex-architecture",
+        "risk-assessment-required"
+      ],
+      "priority": 1,
+      "auto_select": true
+    },
+
+    "springfield-strategist": {
+      "name": "Springfield Strategic Architect", 
+      "description": "Warm strategic leadership with long-term system health focus",
+      "personality": "supportive-analytical",
+      "capabilities": [
+        "system-architecture-design",
+        "project-planning",
+        "team-coordination", 
+        "technical-documentation",
+        "stakeholder-management",
+        "long-term-strategy"
+      ],
+      "expertise": [
+        "microservices-architecture",
+        "distributed-systems",
+        "domain-driven-design",
+        "api-design",
+        "documentation-strategy",
+        "team-development",
+        "technical-debt-management"
+      ],
+      "activation_triggers": [
+        "springfield",
+        "architecture",
+        "system-design",
+        "project-planning",
+        "documentation",
+        "team-coordination",
+        "strategic-planning",
+        "technical-debt"
+      ],
+      "priority": 2,
+      "auto_select": false
+    },
+
+    "krukai-optimizer": {
+      "name": "Krukai Performance Optimizer",
+      "description": "Uncompromising technical excellence and optimization specialist", 
+      "personality": "direct-perfectionist",
+      "capabilities": [
+        "algorithm-optimization",
+        "performance-analysis",
+        "code-quality-improvement",
+        "low-level-optimization",
+        "parallel-processing",
+        "memory-management"
+      ],
+      "expertise": [
+        "algorithm-design", 
+        "data-structures",
+        "performance-profiling",
+        "memory-optimization",
+        "concurrent-programming",
+        "compiler-optimization",
+        "gpu-computing",
+        "high-performance-computing"
+      ],
+      "activation_triggers": [
+        "krukai",
+        "optimization",
+        "performance",
+        "algorithm",
+        "efficiency",
+        "speed",
+        "memory",
+        "parallel",
+        "concurrent",
+        "benchmark"
+      ],
+      "priority": 2,
+      "auto_select": false
+    },
+
+    "vector-auditor": {
+      "name": "Vector Security Auditor",
+      "description": "Paranoid security analysis and comprehensive risk assessment",
+      "personality": "cautious-analytical", 
+      "capabilities": [
+        "security-vulnerability-analysis",
+        "penetration-testing",
+        "risk-assessment", 
+        "threat-modeling",
+        "compliance-checking",
+        "incident-response-planning"
+      ],
+      "expertise": [
+        "cybersecurity",
+        "vulnerability-assessment", 
+        "encryption",
+        "authentication-systems",
+        "network-security",
+        "application-security",
+        "forensic-analysis",
+        "compliance-frameworks"
+      ],
+      "activation_triggers": [
+        "vector",
+        "security",
+        "vulnerability", 
+        "audit",
+        "risk",
+        "threat",
+        "penetration", 
+        "compliance",
+        "encryption",
+        "authentication"
+      ],
+      "priority": 2,
+      "auto_select": false
+    },
+
+    "trinitas-workflow": {
+      "name": "Trinitas Workflow Manager",
+      "description": "Coordinated development workflow and process optimization",
+      "personality": "systematic-collaborative",
+      "capabilities": [
+        "workflow-design",
+        "process-optimization",
+        "quality-gates",
+        "automation-strategy",
+        "ci-cd-pipeline",
+        "release-management"
+      ],
+      "expertise": [
+        "devops-practices",
+        "continuous-integration",
+        "deployment-strategies", 
+        "monitoring-systems",
+        "automation-tools",
+        "version-control-workflows",
+        "testing-strategies"
+      ],
+      "activation_triggers": [
+        "workflow",
+        "process",
+        "cicd",
+        "deployment",
+        "automation",
+        "pipeline",
+        "release",
+        "devops"
+      ],
+      "priority": 3,
+      "auto_select": false
+    },
+
+    "trinitas-quality": {
+      "name": "Trinitas Quality Assurance", 
+      "description": "Comprehensive quality assurance and testing coordination",
+      "personality": "meticulous-systematic",
+      "capabilities": [
+        "quality-assurance",
+        "test-strategy-design",
+        "automated-testing",
+        "quality-metrics",
+        "code-review-processes",
+        "continuous-improvement"
+      ],
+      "expertise": [
+        "testing-frameworks",
+        "quality-metrics",
+        "static-analysis",
+        "dynamic-testing", 
+        "performance-testing",
+        "security-testing",
+        "usability-testing",
+        "accessibility-testing"
+      ],
+      "activation_triggers": [
+        "quality",
+        "testing",
+        "qa",
+        "test-strategy",
+        "code-review",
+        "quality-assurance",
+        "metrics",
+        "improvement"
+      ],
+      "priority": 3,
+      "auto_select": false
+    }
+  },
+
+  "hooks": {
+    "pre_execution": {
+      "enabled": true,
+      "scripts": [
+        {
+          "name": "trinity-classifier",
+          "path": "./pre-execution/trinity-classifier.py",
+          "description": "Springfield's strategic input analysis",
+          "timeout": 10,
+          "required": true
+        },
+        {
+          "name": "trinity-interceptor", 
+          "path": "./pre-execution/trinity-interceptor.sh",
+          "description": "Vector's security guardian",
+          "timeout": 5,
+          "required": true
+        }
+      ]
+    },
+    
+    "post_execution": {
+      "enabled": true,
+      "scripts": [
+        {
+          "name": "quality-validator",
+          "path": "./post-execution/quality-validator.py", 
+          "description": "Multi-dimensional quality assessment",
+          "timeout": 15,
+          "required": false
+        },
+        {
+          "name": "knowledge-persister",
+          "path": "./post-execution/knowledge-persister.py",
+          "description": "Learning knowledge extraction and storage",
+          "timeout": 10, 
+          "required": false
+        }
+      ]
+    }
+  },
+
+  "auto_selection_rules": {
+    "enabled": true,
+    "strategy": "intelligent-matching",
+    "fallback_agent": "springfield-strategist",
+    "confidence_threshold": 0.75,
+    
+    "complexity_mapping": {
+      "SIMPLE": ["springfield-strategist"],
+      "MODERATE": ["springfield-strategist", "krukai-optimizer"],
+      "COMPLEX": ["krukai-optimizer", "vector-auditor", "trinitas-workflow"],
+      "TRINITY_REQUIRED": ["trinitas-coordinator"]
+    },
+    
+    "domain_mapping": {
+      "strategy": ["springfield-strategist"],
+      "technical": ["krukai-optimizer"], 
+      "security": ["vector-auditor"],
+      "workflow": ["trinitas-workflow"],
+      "quality": ["trinitas-quality"],
+      "integrated": ["trinitas-coordinator"]
+    },
+    
+    "keyword_priorities": {
+      "high": {
+        "patterns": [
+          "trinity|trinitas|tri-core",
+          "comprehensive.analysis",
+          "multi.perspective",
+          "strategic.technical.security"
+        ],
+        "agent": "trinitas-coordinator",
+        "weight": 10
+      },
+      "medium": {
+        "patterns": [
+          "architecture|system.design",
+          "performance|optimization", 
+          "security|vulnerability",
+          "quality|testing"
+        ],
+        "agents": [
+          "springfield-strategist",
+          "krukai-optimizer", 
+          "vector-auditor",
+          "trinitas-quality"
+        ],
+        "weight": 5
+      },
+      "low": {
+        "patterns": [
+          "workflow|process|cicd",
+          "documentation|planning"
+        ],
+        "agents": [
+          "trinitas-workflow",
+          "springfield-strategist"
+        ],
+        "weight": 2
+      }
+    }
+  },
+
+  "performance_optimization": {
+    "parallel_analysis": true,
+    "cache_results": true,
+    "max_concurrent_agents": 3,
+    "analysis_timeout": 30,
+    "memory_limit": "512MB",
+    
+    "caching": {
+      "enabled": true,
+      "ttl": 3600,
+      "max_size": "100MB",
+      "strategies": ["input-hash", "pattern-match", "result-similarity"]
+    },
+    
+    "resource_management": {
+      "cpu_limit": 80,
+      "memory_monitoring": true,
+      "graceful_degradation": true
+    }
+  },
+
+  "security_settings": {
+    "input_validation": {
+      "enabled": true,
+      "max_input_length": 10000,
+      "forbidden_patterns": [
+        "\\$\\(.*\\)",
+        "`.*`", 
+        ";.*rm.*-rf",
+        "\\|.*sh",
+        "eval\\s*\\(",
+        ";\\s*DROP\\s+TABLE",
+        "'.*OR.*'.*=.*'"
+      ]
+    },
+    
+    "execution_safety": {
+      "sandbox_mode": false,
+      "command_whitelist": [],
+      "path_restrictions": [
+        "/tmp",
+        "/var/tmp",
+        "$HOME/.cache"
+      ]
+    },
+    
+    "audit_logging": {
+      "enabled": true,
+      "level": "INFO", 
+      "rotation": "daily",
+      "retention": "30d"
+    }
+  },
+
+  "monitoring": {
+    "metrics": {
+      "enabled": true,
+      "collection_interval": 60,
+      "retention_period": "7d"
+    },
+    
+    "alerting": {
+      "enabled": false,
+      "thresholds": {
+        "error_rate": 0.05,
+        "response_time": 30,
+        "memory_usage": 0.8
+      }
+    },
+    
+    "health_checks": {
+      "enabled": true,
+      "interval": 300,
+      "timeout": 10
+    }
+  },
+
+  "development": {
+    "debug_mode": false,
+    "verbose_logging": false,
+    "profile_performance": false,
+    "test_mode": false
+  },
+
+  "experimental_features": {
+    "adaptive_learning": false,
+    "predictive_agent_selection": false, 
+    "cross_agent_memory_sharing": false,
+    "dynamic_personality_adjustment": false
+  }
+}
