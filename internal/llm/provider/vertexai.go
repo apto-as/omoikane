@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/log"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/log"
 	"google.golang.org/genai"
 )
 

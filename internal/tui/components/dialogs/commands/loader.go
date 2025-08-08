@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea/v2"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/tui/util"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/tui/util"
 )
 
 const (

@@ -6,12 +6,12 @@ import (
 
 	"github.com/charmbracelet/lipgloss/v2"
 
-	"github.com/charmbracelet/crush/internal/app"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/lsp"
-	"github.com/charmbracelet/crush/internal/lsp/protocol"
-	"github.com/charmbracelet/crush/internal/tui/components/core"
-	"github.com/charmbracelet/crush/internal/tui/styles"
+	"github.com/apto-as/omoikane/internal/app"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/lsp"
+	"github.com/apto-as/omoikane/internal/lsp/protocol"
+	"github.com/apto-as/omoikane/internal/tui/components/core"
+	"github.com/apto-as/omoikane/internal/tui/styles"
 )
 
 // RenderOptions contains options for rendering LSP lists.

@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"log/slog"
 
-	"github.com/charmbracelet/crush/internal/config"
+	"github.com/apto-as/omoikane/internal/config"
 
-	"github.com/charmbracelet/crush/internal/lsp/protocol"
-	"github.com/charmbracelet/crush/internal/lsp/util"
+	"github.com/apto-as/omoikane/internal/lsp/protocol"
+	"github.com/apto-as/omoikane/internal/lsp/util"
 )
 
 // Requests

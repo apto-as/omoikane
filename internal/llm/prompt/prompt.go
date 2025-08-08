@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/csync"
-	"github.com/charmbracelet/crush/internal/env"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/csync"
+	"github.com/apto-as/omoikane/internal/env"
 )
 
 type PromptID string

@@ -5,14 +5,14 @@ import (
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea/v2"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/fsext"
-	"github.com/charmbracelet/crush/internal/lsp"
-	"github.com/charmbracelet/crush/internal/lsp/protocol"
-	"github.com/charmbracelet/crush/internal/pubsub"
-	"github.com/charmbracelet/crush/internal/session"
-	"github.com/charmbracelet/crush/internal/tui/styles"
-	"github.com/charmbracelet/crush/internal/tui/util"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/fsext"
+	"github.com/apto-as/omoikane/internal/lsp"
+	"github.com/apto-as/omoikane/internal/lsp/protocol"
+	"github.com/apto-as/omoikane/internal/pubsub"
+	"github.com/apto-as/omoikane/internal/session"
+	"github.com/apto-as/omoikane/internal/tui/styles"
+	"github.com/apto-as/omoikane/internal/tui/util"
 	"github.com/charmbracelet/lipgloss/v2"
 )
 

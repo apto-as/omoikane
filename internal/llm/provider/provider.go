@@ -6,9 +6,9 @@ import (
 
 	"github.com/charmbracelet/catwalk/pkg/catwalk"
 
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/llm/tools"
-	"github.com/charmbracelet/crush/internal/message"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/llm/tools"
+	"github.com/apto-as/omoikane/internal/message"
 )
 
 type EventType string

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/charmbracelet/crush/internal/lsp"
-	"github.com/charmbracelet/crush/internal/permission"
+	"github.com/apto-as/omoikane/internal/lsp"
+	"github.com/apto-as/omoikane/internal/permission"
 )
 
 type ViewParams struct {

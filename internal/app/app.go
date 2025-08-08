@@ -11,19 +11,19 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea/v2"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/csync"
-	"github.com/charmbracelet/crush/internal/db"
-	"github.com/charmbracelet/crush/internal/format"
-	"github.com/charmbracelet/crush/internal/history"
-	"github.com/charmbracelet/crush/internal/llm/agent"
-	"github.com/charmbracelet/crush/internal/log"
-	"github.com/charmbracelet/crush/internal/pubsub"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/csync"
+	"github.com/apto-as/omoikane/internal/db"
+	"github.com/apto-as/omoikane/internal/format"
+	"github.com/apto-as/omoikane/internal/history"
+	"github.com/apto-as/omoikane/internal/llm/agent"
+	"github.com/apto-as/omoikane/internal/log"
+	"github.com/apto-as/omoikane/internal/pubsub"
 
-	"github.com/charmbracelet/crush/internal/lsp"
-	"github.com/charmbracelet/crush/internal/message"
-	"github.com/charmbracelet/crush/internal/permission"
-	"github.com/charmbracelet/crush/internal/session"
+	"github.com/apto-as/omoikane/internal/lsp"
+	"github.com/apto-as/omoikane/internal/message"
+	"github.com/apto-as/omoikane/internal/permission"
+	"github.com/apto-as/omoikane/internal/session"
 )
 
 type App struct {

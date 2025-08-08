@@ -9,8 +9,8 @@ import (
 
 	_ "github.com/joho/godotenv/autoload" // automatically load .env files
 
-	"github.com/charmbracelet/crush/internal/cmd"
-	"github.com/charmbracelet/crush/internal/log"
+	"github.com/apto-as/omoikane/internal/cmd"
+	"github.com/apto-as/omoikane/internal/log"
 )
 
 func main() {

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/charmbracelet/crush/internal/env"
-	"github.com/charmbracelet/crush/internal/shell"
+	"github.com/apto-as/omoikane/internal/env"
+	"github.com/apto-as/omoikane/internal/shell"
 )
 
 type VariableResolver interface {

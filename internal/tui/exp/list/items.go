@@ -4,9 +4,9 @@ import (
 	"image/color"
 
 	tea "github.com/charmbracelet/bubbletea/v2"
-	"github.com/charmbracelet/crush/internal/tui/components/core"
-	"github.com/charmbracelet/crush/internal/tui/components/core/layout"
-	"github.com/charmbracelet/crush/internal/tui/styles"
+	"github.com/apto-as/omoikane/internal/tui/components/core"
+	"github.com/apto-as/omoikane/internal/tui/components/core/layout"
+	"github.com/apto-as/omoikane/internal/tui/styles"
 	"github.com/charmbracelet/lipgloss/v2"
 	"github.com/charmbracelet/x/ansi"
 	"github.com/google/uuid"

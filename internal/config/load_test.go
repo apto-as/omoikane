@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/charmbracelet/catwalk/pkg/catwalk"
-	"github.com/charmbracelet/crush/internal/csync"
-	"github.com/charmbracelet/crush/internal/env"
+	"github.com/apto-as/omoikane/internal/csync"
+	"github.com/apto-as/omoikane/internal/env"
 	"github.com/stretchr/testify/require"
 )
 

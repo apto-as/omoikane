@@ -9,12 +9,12 @@ import (
 	"github.com/charmbracelet/bubbles/v2/spinner"
 	tea "github.com/charmbracelet/bubbletea/v2"
 	"github.com/charmbracelet/catwalk/pkg/catwalk"
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/tui/components/core"
-	"github.com/charmbracelet/crush/internal/tui/components/dialogs"
-	"github.com/charmbracelet/crush/internal/tui/exp/list"
-	"github.com/charmbracelet/crush/internal/tui/styles"
-	"github.com/charmbracelet/crush/internal/tui/util"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/tui/components/core"
+	"github.com/apto-as/omoikane/internal/tui/components/dialogs"
+	"github.com/apto-as/omoikane/internal/tui/exp/list"
+	"github.com/apto-as/omoikane/internal/tui/styles"
+	"github.com/apto-as/omoikane/internal/tui/util"
 	"github.com/charmbracelet/lipgloss/v2"
 )
 

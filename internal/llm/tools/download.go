@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/charmbracelet/crush/internal/permission"
+	"github.com/apto-as/omoikane/internal/permission"
 )
 
 type DownloadParams struct {

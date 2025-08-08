@@ -9,11 +9,11 @@ import (
 	"github.com/charmbracelet/lipgloss/v2"
 	"github.com/charmbracelet/x/ansi"
 
-	"github.com/charmbracelet/crush/internal/config"
-	"github.com/charmbracelet/crush/internal/fsext"
-	"github.com/charmbracelet/crush/internal/history"
-	"github.com/charmbracelet/crush/internal/tui/components/core"
-	"github.com/charmbracelet/crush/internal/tui/styles"
+	"github.com/apto-as/omoikane/internal/config"
+	"github.com/apto-as/omoikane/internal/fsext"
+	"github.com/apto-as/omoikane/internal/history"
+	"github.com/apto-as/omoikane/internal/tui/components/core"
+	"github.com/apto-as/omoikane/internal/tui/styles"
 )
 
 // FileHistory represents a file history with initial and latest versions.
